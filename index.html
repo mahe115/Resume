@@ -9,16 +9,22 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden;
-        }
-        iframe {
             width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f4f4f4;
+        }
+        object {
+            width: 100vw;
             height: 100vh;
-            border: none;
         }
     </style>
 </head>
 <body>
-    <iframe src="Mahendran%20B.pdf"></iframe>
+    <object data="Mahendran%20B.pdf" type="application/pdf">
+        <p>Your browser does not support PDFs. <a href="Mahendran%20B.pdf">Download the PDF</a>.</p>
+    </object>
 </body>
 </html>
